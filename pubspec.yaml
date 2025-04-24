@@ -1,21 +1,14 @@
+---
 name: cuba80s
 description: A Flutter project for Cuba80s Radio.
-
-# Versión del proyecto
 version: 1.0.0+1
-
-# Dependencias del proyecto
 dependencies:
   flutter:
     sdk: flutter
-  # Añade más dependencias aquí si es necesario
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-# Configuración de Flutter
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/  # Si tienes imágenes u otros archivos dentro de "assets"
+    - assets/images/
