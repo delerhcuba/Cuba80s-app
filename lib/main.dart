@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-
 void main() {
 runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
 @override
 Widget build(BuildContext context) {
@@ -12,21 +10,17 @@ home: RadioApp(),
 );
 }
 }
-
 class RadioApp extends StatefulWidget {
 @override
 _RadioAppState createState() => _RadioAppState();
 }
-
 class _RadioAppState extends State<RadioApp> {
 bool _isPlaying = false;
-
 void _togglePlay() {
 setState(() {
 _isPlaying = !_isPlaying;
 });
 }
-
 @override
 Widget build(BuildContext context) {
 return Scaffold(
